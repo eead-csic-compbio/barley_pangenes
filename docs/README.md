@@ -33,8 +33,6 @@ with the following arguments:
 
     plant-scripts/pangenes/get_pangenes.pl -d barley -s '^chr\d+H' -m cluster -r MorexV3 -H -t 0 
 
-The log file is available [here](../log.barley.H.t0.MorexV3.txt).
-
 ## Citation
 
 Protocol and files first published at:
