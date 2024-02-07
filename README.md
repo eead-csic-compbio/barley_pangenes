@@ -39,4 +39,8 @@ The log file is available [here](log.barley.H.t0.MorexV3.txt).
 
 Protocol and files first published at:
 
-Contreras-Moreira, B., Saraf, S., Naamati, G. et al. GET_PANGENES: calling pangenes from plant genome alignments confirms presence-absence variation. Genome Biol 24, 223 (2023). https://doi.org/10.1186/s13059-023-03071-z
+Contreras-Moreira B, Saraf S, Naamati G et al (2023) GET_PANGENES: calling pangenes from plant genome alignments confirms presence-absence variation. Genome Biol 24, 223. https://doi.org/10.1186/s13059-023-03071-z
+
+Multiple sequence alignments produced with clustal-omega v1.2.4:
+
+Sievers F, Wilm A, Dineen D, et al (2011) Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Mol Syst Biol 7:539. https://doi.org/10.1038%2Fmsb.2011.75
