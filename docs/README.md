@@ -10,7 +10,7 @@ Click on chromosomes below to browse pangenes and display multiple sequence alig
 
 You can download the raw pangene matrices at <https://github.com/eead-csic-compbio/barley_pangenes>.
 
-The pangene matrices in BED and TSV format describe clusters of gene models 
+The pangene matrices in BED and TAB format describe clusters of gene models 
 found to be collinear across barley assemblies and annotations in the following 
 order: 
 
@@ -20,7 +20,7 @@ The gene annotations come from https://doi.org/10.5447/ipk/2020/24,
 https://doi.org/10.1111/tpj.15871 (BaRTv2)
 and https://plants.ensembl.org (MorexV3).
  
-The **TSV** file contains one cluster per row, the 1st column being the cluster name.
+The **TAB** file contains one cluster per row, the 1st column being the cluster name.
 
 The **BED** file describes the same clusters with the first four columns indicating the
 position of the relevant gene model in the MorexV3 reference and the cluster name.
