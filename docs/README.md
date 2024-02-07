@@ -6,6 +6,8 @@ Click on chromosomes below to browse pangenes and display multiple sequence alig
 
 [chr1H](./chr1H.html) | [chr2H](./chr2H.html) | [chr3H](./chr3H.html) | [chr4H](./chr4H.html) | [chr5H](./chr5H.html) | [chr6H](./chr6H.html) | [chr7H](./chr7H.html) | [chrUn](./chrUn.html) 
 
+![example pangene](https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13059-023-03071-z/MediaObjects/13059_2023_3071_Fig4_HTML.png)
+
 ## Raw files
 
 You can download the raw pangene matrices at <https://github.com/eead-csic-compbio/barley_pangenes>.
