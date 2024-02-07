@@ -15,7 +15,7 @@ knitr::opts_chunk$set(eval=TRUE, cache=FALSE, message=FALSE, echo = TRUE,
                       warning=FALSE, comment = "", results="markup")
 ```
 
-[[main page, other chromosomes]](./README.md)
+[[main page, other chromosomes]](https://eead-csic-compbio.github.io/barley_pangenes)
 
 Click on pangene names to display multiple sequence alignments of encoded proteins at <https://www.ncbi.nlm.nih.gov/projects/msaviewer>.
 
