@@ -1,0 +1,32 @@
+---
+title: "chr2H pangenes from the barley pangenome"
+author:
+- affiliation: Estación Experimental de Aula Dei-CSIC, Zaragoza, Spain 
+  name: Bruno Contreras Moreira, Ana M Casas
+output:
+  html_document:
+    fig_caption: yes
+    highlight: zenburn
+    number_sections: yes
+    theme: cerulean
+fontsize: 11pt
+---
+
+```{r knitr setup, include=FALSE,  eval=TRUE, echo=FALSE, warning=FALSE}
+library(knitr)
+knitr::opts_chunk$set(eval=TRUE, cache=FALSE, message=FALSE, echo = TRUE,
+                      warning=FALSE, comment = "", results="markup")
+```
+
+[[main page, other chromosomes]](./README.md)
+
+Click on pangene names to display multiple sequence alignments of encoded proteins at <https://www.ncbi.nlm.nih.gov/projects/msaviewer>.
+
+Scroll to the right to see all columns.
+
+```{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('pre/chr2Hpre.html')
+```
+```
+
