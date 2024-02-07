@@ -18,9 +18,9 @@ order:
 
     MorexV3 Morex Barke HOR10350 HOR3081 HOR9043 OUN333 HOR7552 Igri HOR21599 HOR13942 Akashinriki HOR8148 RGT_Planet HOR13821 B1K-04-12 HOR3365 Hockett ZDM02064 ZDM01467 Golden_Promise BarkeBaRT2v18
 
-The gene annotations come from https://doi.org/10.5447/ipk/2020/24, 
-https://doi.org/10.1111/tpj.15871 (BaRTv2)
-and https://plants.ensembl.org (MorexV3).
+The gene annotations come from <https://doi.org/10.5447/ipk/2020/24>, 
+<https://doi.org/10.1111/tpj.15871> (BaRTv2)
+and <https://plants.ensembl.org> (MorexV3).
  
 The **TAB** file contains one cluster per row, the 1st column being the cluster name.
 
