@@ -1,8 +1,5 @@
 ---
 title: "chr7H pangenes from the barley pangenome"
-author:
-- affiliation: Estación Experimental de Aula Dei-CSIC, Zaragoza, Spain 
-  name: Bruno Contreras Moreira, Ana M Casas
 output:
   html_document:
     fig_caption: yes
