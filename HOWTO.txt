@@ -23,3 +23,30 @@ perl -lne 'if(/^cluster \S+ size=\d+ taxa=(\d+) \S+ cdnafile: (\S+) \S+ \S+ pepf
 # align protein sequences in clusters
 cd MorexV3
 cat ../list.2.pep.txt | parallel --gnu -j 16 ~/soft/clustal-omega-1.2.4/src/clustalo -i {} -o ../msa_pep/{} ::: &> ../log.msa_pep
+
+
+
+## unused code
+
+
+# {r bedtable}
+# # parse pangene matrix file in BED format and add header
+# bed <- read.csv(file="pangene_matrix.tr.bed", sep="\t", comment.char=";",header=F)
+# names(bed) <- c("chr","start","end","pangene","occupancy","strand",
+#               "MorexV3","Morex","HOR10350","RGT_Planet","HOR3081",
+#               "Barke","HOR9043","HOR13821","HOR8148","Igri","HOR13942",
+#               "OUN333","HOR21599","Akashinriki","HOR7552","ZDM02064",
+#               "Hockett","HOR3365","ZDM01467","B1K-04-12","Golden_Promise",
+#               "BarkeBaRT2v18")
+#
+# # one chr at a time
+# bed <- bed[grep("chr1H", bed$chr), ]
+#
+# # build URL only for clusters with occup > 1
+# bed[bed$occupancy > 1,4] <- 
+#  paste0('[', bed[bed$occupancy > 1,4], '](',URL, bed[bed$occupancy > 1,4])
+# bed[bed$occupancy > 1,4] <- paste0(bed[bed$occupancy > 1,4], EXT,')')
+#
+# # display as table
+# kable(bed,format.args = list(big.mark=","), longtable=T)
+
