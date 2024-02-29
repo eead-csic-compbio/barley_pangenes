@@ -1,17 +1,6 @@
-# plant-scripts/pangenes/get_pangenes.pl -d barley -p 0 -o 0 -r MorexV3 -t 0 -c 0 -z 0 -I 0 -m cluster -w 0 -g 0 -O 0.5 -Q 50 -N 5 -s '^chr\d+H' -H 1 -W '' -G '' -B '' -S '' -n 4 -R 0
+# plant-scripts/pangenes/get_pangenes.pl -d barley -p 0 -o 0 -r MorexV3 -t 0 -c 0 -z 0 -I barley/list.22 -m local -w 0 -g 0 -O 0.5 -Q 50 -N 5 -s '^chr\d+H' -f 0 -H 1 -W '' -G '' -B '' -S '' -n 4 -R 0
 
-# computer cluster settings
-# CHKEXE	bjobs
-# CTIME	30
-# DELEXE	bkill
-# ERROR	EXIT
-# PATH	/lsf/10.1/linux3.10-glibc2.17-x86_64/bin/
-# QARGS	-q production -M 220G 
-# STIME	1
-# SUBEXE	bsub
-# TYPE	lsf
-
-# version 24112023 (last commits 11012024)
+# version 28022024
 # results_directory=barley_pangenes
 # parameters: MINGFFLEN=100 GFFACCEPTEDFEATS=gene,mRNA,transcript,exon,CDS GFFVALIDGENEFEAT=gene,mRNA,transcript
 

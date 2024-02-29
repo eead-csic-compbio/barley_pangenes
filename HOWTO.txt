@@ -18,11 +18,11 @@ perl -lane 'BEGIN{print "<pre><b>chr\tstart\tend\tpangene\toccupancy\tstrand\tMo
 ## MSAs
 
 # clusters with 2+ taxa
-perl -lne 'if(/^cluster \S+ size=\d+ taxa=(\d+) \S+ cdnafile: (\S+) \S+ \S+ pepfile: (\S+)/){ print "$3" if($1 >= 2)}' MorexV3.cluster_list > list.2.pep.txt
+#perl -lne 'if(/^cluster \S+ size=\d+ taxa=(\d+) \S+ cdnafile: (\S+) \S+ \S+ pepfile: (\S+)/){ print "$3" if($1 >= 2)}' MorexV3.cluster_list > list.2.pep.txt
 
 # align protein sequences in clusters
-cd MorexV3
-cat ../list.2.pep.txt | parallel --gnu -j 16 ~/soft/clustal-omega-1.2.4/src/clustalo -i {} -o ../msa_pep/{} ::: &> ../log.msa_pep
+#cd MorexV3
+#cat ../list.2.pep.txt | parallel --gnu -j 16 ~/soft/clustal-omega-1.2.4/src/clustalo -i {} -o ../msa_pep/{} ::: &> ../log.msa_pep
 
 
 
