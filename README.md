@@ -47,4 +47,4 @@ Sievers F, Wilm A, Dineen D, et al (2011) Fast, scalable generation of high-qual
 
 ## Funding 
 
-Multiple alignment of coding sequences from barley pangenes was computed within [PRIMA project GENDIBAR](https://www.era-learn.eu/network-information/networks/prima/section-2-call-multi-topic-2018/use-of-local-genetic-diversity-to-understand-and-exploit-barley-adaptation-to-harsh-environments-and-for-pre-breeding).
+Multiple alignments of coding sequences from barley pangenes were computed within [PRIMA project GENDIBAR](https://www.era-learn.eu/network-information/networks/prima/section-2-call-multi-topic-2018/use-of-local-genetic-diversity-to-understand-and-exploit-barley-adaptation-to-harsh-environments-and-for-pre-breeding).
