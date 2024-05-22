@@ -44,3 +44,7 @@ Contreras-Moreira B, Saraf S, Naamati G et al (2023) GET_PANGENES: calling pange
 Multiple sequence alignments produced with clustal-omega v1.2.4:
 
 Sievers F, Wilm A, Dineen D, et al (2011) Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Mol Syst Biol 7:539. https://doi.org/10.1038%2Fmsb.2011.75
+
+## Funding 
+
+Multiple alignment of coding sequences from barley pangenes was computed within [PRIMA project GENDIBAR](https://www.era-learn.eu/network-information/networks/prima/section-2-call-multi-topic-2018/use-of-local-genetic-diversity-to-understand-and-exploit-barley-adaptation-to-harsh-environments-and-for-pre-breeding).
