@@ -2,6 +2,8 @@
 
 Pangenes are clusters of gene models/alleles found in barley assemblies in a similar genomic location.
 
+They are computed from Whole Genome Alignments and nucleotide sequences, not protein sequences.
+
 Click on chromosomes below to browse pangenes and display multiple sequence alignments of encoded proteins. 
 Read our [blog post](https://bioinfoperl.blogspot.com/2024/02/browsing-barley-pangenes.html) for more information.
 
