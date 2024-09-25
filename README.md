@@ -75,6 +75,9 @@ Coulter M, Entizne JC, Guo W, et al. BaRTv2: a highly resolved barley reference 
 ## Funding 
 
 [PRIMA GENDIBAR, PCI2019-103526] supported by Horizon 2020 
+
 [PID2022-142116OB-I00] by MICIU/AEI/10.13039/501100011033
+
 [A08_23R] funded by Aragón goverment 
+
 [FAS2022_052, INFRA24018, conexión BCB] funded by CSIC
