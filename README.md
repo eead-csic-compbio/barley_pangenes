@@ -6,10 +6,10 @@ Pangenes are clusters of gene models/alleles/haplotypes found in barley assembli
 
 ## Browser
 
-You can browse pangenes and display multiple sequence alignments of encoded proteins at 
+You can browse pangenes and display multiple sequence alignments (MSA) of encoded proteins at 
 <https://eead-csic-compbio.github.io/barley_pangenes>.
 
-Also, MorexV3 HC genes in maps produced by [BARLEYMAP](https://barleymap.eead.csic.es) link out to multiple protein alignments.
+Also, MorexV3 HC genes in maps produced by [BARLEYMAP](https://barleymap.eead.csic.es) link out to these MSAs.
 
 ## Raw files
 
