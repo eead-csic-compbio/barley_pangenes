@@ -11,7 +11,7 @@ Also, MorexV3 HC genes in maps produced by [BARLEYMAP](https://barleymap.eead.cs
 
 ![example pangene](https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13059-023-03071-z/MediaObjects/13059_2023_3071_Fig4_HTML.png)
 
-## Raw files
+## Raw files and methods
 
 You can download the raw pangene matrices and get more details at <https://github.com/eead-csic-compbio/barley_pangenes>.
 
