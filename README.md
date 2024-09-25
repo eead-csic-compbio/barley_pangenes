@@ -2,11 +2,9 @@
 
 Pangenes are clusters of gene models/alleles/haplotypes found in barley assemblies in a similar genomic location.
 
-They are computed from Whole Genome Alignments and nucleotide sequences, not protein sequences, thus they are complementary to orthogroups in <https://panbarlex.ipk-gatersleben.de>.
-
 ![example pangene](https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13059-023-03071-z/MediaObjects/13059_2023_3071_Fig4_HTML.png)
 
-## Pangene browser
+## Browser
 
 You can browse pangenes and display multiple sequence alignments of encoded proteins at 
 <https://eead-csic-compbio.github.io/barley_pangenes>.
@@ -34,13 +32,17 @@ Input genome assemblies (FASTA) and gene annotations (GFF) were obtained from IP
 Ensembl Plants and JHI as explained in <https://doi.org/10.1186/s13059-023-03071-z>. 
 These files are available at <https://zenodo.org/records/7961646>.
 
-Barley pangenes were produced by clustering collinear genes with 
+Barley pangenes were produced by computing Whole Genome Alignments followed by gene model overlap and clustering with 
 [get_pangenes.pl](https://github.com/Ensembl/plant-scripts/tree/master/pangenes) 
 version 28022024 with the following arguments:
 
     plant-scripts/pangenes/get_pangenes.pl -d barley -s '^chr\d+H' -m cluster -r MorexV3 -H -t 0 > log.barley.H.t0.MorexV3.txt
 
-Multiple protein alignments of resulting `.cds.faa` clusters were computed with clustal-omega v1.2.4.
+Note this approach uses nucleotide sequences, not protein sequences, being an alaternative to protein-based orthogroups in <https://panbarlex.ipk-gatersleben.de>.
+
+
+
+Multiple alignments of resulting `.cds.faa` clusters were computed with clustal-omega v1.2.4.
 
 To reduce avoid annotation bias and redundancy, BaRTv2 and MorexV3 gene models were removed to
 carry out haplotype analysis of trimmed protein sequences, which was performed as explained in 
