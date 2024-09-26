@@ -40,15 +40,14 @@ version 28022024 with the following arguments:
 
 Note this approach uses nucleotide sequences, not protein sequences, being an alaternative to protein-based orthogroups in <https://panbarlex.ipk-gatersleben.de>.
 
-
-
 Multiple alignments of resulting `.cds.faa` clusters were computed with clustal-omega v1.2.4.
+
+## Haplotype diversity
 
 To reduce avoid annotation bias and redundancy, BaRTv2 and MorexV3 gene models were removed to
 carry out haplotype analysis of trimmed protein sequences, which was performed as explained in 
-<https://github.com/Ensembl/plant-scripts/tree/master/pangenes#example-6-estimation-of-haplotype-diversity>.
-
-
+<https://github.com/Ensembl/plant-scripts/tree/master/pangenes#example-6-estimation-of-haplotype-diversity>
+and summarized on poster <http://hdl.handle.net/10261/368616>.
 
 
 ## Citations
@@ -56,6 +55,10 @@ carry out haplotype analysis of trimmed protein sequences, which was performed a
 Protocol first published at:
 
 Contreras-Moreira B, Saraf S, Naamati G et al (2023) GET_PANGENES: calling pangenes from plant genome alignments confirms presence-absence variation. Genome Biol 24, 223. https://doi.org/10.1186/s13059-023-03071-z
+
+Haplotype diversity poster:
+
+Contreras-Moreira B, Montardit F, Sàrria J, Igartua E, Casas AM (2024) Analysis of collinear genes across the barley pangenome reveals that 85% of protein coding genes have two or more alleles. 1er Congreso de la Sociedad Española de Bioinformática y Biología Computacional (SEBiBC), C-0314. http://hdl.handle.net/10261/368616
 
 
 
@@ -76,8 +79,11 @@ Coulter M, Entizne JC, Guo W, et al. BaRTv2: a highly resolved barley reference 
 
 [PRIMA GENDIBAR, PCI2019-103526] supported by Horizon 2020 
 
-[PID2022-142116OB-I00] by MICIU/AEI/10.13039/501100011033
-
 [A08_23R] funded by Aragón goverment 
 
 [FAS2022_052, INFRA24018, conexión BCB] funded by CSIC
+
+[PID2022-142116OB-I00] by MICIU/AEI/10.13039/501100011033
+
+![AEI](./AEI.jpg)
+
