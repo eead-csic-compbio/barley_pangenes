@@ -45,4 +45,4 @@ Coulter M, Entizne JC, Guo W, et al. BaRTv2: a highly resolved barley reference 
 
 [PID2022-142116OB-I00] by MICIU/AEI/10.13039/501100011033
 
-![AEI](../AEI.jpg)
+![AEI](https://github.com/eead-csic-compbio/barley_pangenes/raw/main/AEI.jpg)
