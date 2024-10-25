@@ -34,7 +34,7 @@ These files are available at <https://zenodo.org/records/7961646>.
 
 Barley pangenes were produced by computing Whole Genome Alignments followed by gene model overlap and clustering with 
 [get_pangenes.pl](https://github.com/Ensembl/plant-scripts/tree/master/pangenes) 
-version 28022024 with the following arguments:
+version 04102024 with the following arguments:
 
     plant-scripts/pangenes/get_pangenes.pl -d barley -s '^chr\d+H' -m cluster -r MorexV3 -H -t 0 > log.barley.H.t0.MorexV3.txt
 
