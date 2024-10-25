@@ -47,7 +47,7 @@ Multiple alignments of resulting `.cds.faa` clusters were computed with clustal-
 To reduce avoid annotation bias and redundancy, BaRTv2 and MorexV3 gene models were removed to
 carry out haplotype analysis of trimmed protein sequences, which was performed as explained in 
 <https://github.com/Ensembl/plant-scripts/tree/master/pangenes#example-6-estimation-of-haplotype-diversity>
-and summarized on poster <http://hdl.handle.net/10261/368616>.
+and summarized on poster <http://hdl.handle.net/10261/368616>. This was done with v10012024 data.
 
 
 ## Citations
