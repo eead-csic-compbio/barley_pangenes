@@ -28,9 +28,9 @@ Sievers F, Wilm A, Dineen D, et al (2011) Fast, scalable generation of high-qual
 
 Annotated genomes from:
 
-Jayakodi, M., Padmarasu, S., Haberer, G. et al. The barley pan-genome reveals the hidden legacy of mutation breeding. Nature 588, 284–289 (2020). https://doi.org/10.1038/s41586-020-2947-8
+Jayakodi, M., Padmarasu, S., Haberer, G. et al. The barley pan-genome reveals the hidden legacy of mutation breeding. Nature 588, 284-289 (2020). https://doi.org/10.1038/s41586-020-2947-8
 
-Mascher M, Wicker T, Jenkins J, et al. Long-read sequence assembly: a technical evaluation in barley, The Plant Cell, Volume 33, Issue 6, June 2021, Pages 1888–1906, https://doi.org/10.1093/plcell/koab077
+Mascher M, Wicker T, Jenkins J, et al. Long-read sequence assembly: a technical evaluation in barley, The Plant Cell, Volume 33, Issue 6, June 2021, Pages 1888-1906, https://doi.org/10.1093/plcell/koab077
 
 Coulter M, Entizne JC, Guo W, et al. BaRTv2: a highly resolved barley reference transcriptome for accurate transcript-specific RNA-seq quantification. Plant J. 2022 111(4):1183-1202. https://doi.org/10.1111%2Ftpj.15871
 
