@@ -1,0 +1,25 @@
+#GFF 
+https://galaxy-web.ipk-gatersleben.de/libraries/folders/Fd071e794759ab192/page/1
+
+#FASTA from V1 unless shown below
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949783185.1?download=true&gzip=true" -O Golden_Promise.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_951816885.1?download=true&gzip=true" -O OUN333.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_951816695.1?download=true&gzip=true" -O Igri.gz 
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949783095.1?download=true&gzip=true" -O Akashinriki.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949782835.1?download=true&gzip=true" -O Barke.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949783395.1?download=true&gzip=true" -O HOR13821.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949783295.1?download=true&gzip=true" -O HOR13942.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949783435.1?download=true&gzip=true" -O HOR21599.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949783495.1?download=true&gzip=true" -O HOR3081.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949783415.1?download=true&gzip=true" -O HOR3365.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_951815805.1?download=true&gzip=true" -O HOR7552.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_951816905.1?download=true&gzip=true" -O HOR8148.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_951817035.1?download=true&gzip=true" -O HOR9043.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949783235.1?download=true&gzip=true" -O ZDM01467.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949783195.1?download=true&gzip=true" -O ZDM02064.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949783135.1?download=true&gzip=true" -O RGT_Planet.gz
+wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949783275.1?download=true&gzip=true" -O Hockett.gz
+#wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_903970665.1?download=true&gzip=true" -O B1K-04-12.gz
+#wget -c -nc "https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_903970645.1?download=true&gzip=true" -O HOR10350.gz
+wget -c -nc "https://galaxy-web.ipk-gatersleben.de/api/libraries/datasets/download/uncompressed?ld_ids=f597e236f2c41715" -O B1K-04-12.fna
+wget -c -nc "https://galaxy-web.ipk-gatersleben.de/api/libraries/datasets/download/uncompressed?ld_ids=3e2dfd57e568189f" -O HOR10350.fna
