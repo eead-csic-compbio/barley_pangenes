@@ -1,0 +1,52 @@
+
+perl -lane 'BEGIN{print "<pre><b>chr\tstart\tend\tpangene\toccupancy\tstrand\tMorexV3\tMorex\tHOR10350\tRGT_Planet\tHOR3081\tBarke\tHOR9043\tHOR13821\tHOR8148\tIgri\tHOR13942\tOUN333\tHOR21599\tAkashinriki\tHOR7552\tZDM02064\tHockett\tHOR3365\tZDM01467\tB1K-04-12\tGolden_Promise\tBarkeBaRT2v18</b>"} next if not(/chr1H/); if($F[4]<2){ print } else { $F[3] = "<a href=\"https://www.ncbi.nlm.nih.gov/projects/msaviewer/?url=https://floresta.eead.csic.es/barley_pangenes_msa/$F[3].cds.faa\">$F[3]</a>"; print join("\t",@F) } END{ print "</pre>"}' pangene_matrix.tr.bed > pre/chr1Hpre.html
+
+perl -lane 'BEGIN{print "<pre><b>chr\tstart\tend\tpangene\toccupancy\tstrand\tMorexV3\tMorex\tHOR10350\tRGT_Planet\tHOR3081\tBarke\tHOR9043\tHOR13821\tHOR8148\tIgri\tHOR13942\tOUN333\tHOR21599\tAkashinriki\tHOR7552\tZDM02064\tHockett\tHOR3365\tZDM01467\tB1K-04-12\tGolden_Promise\tBarkeBaRT2v18</b>"} next if not(/chr2H/); if($F[4]<2){ print } else { $F[3] = "<a href=\"https://www.ncbi.nlm.nih.gov/projects/msaviewer/?url=https://floresta.eead.csic.es/barley_pangenes_msa/$F[3].cds.faa\">$F[3]</a>"; print join("\t",@F) } END{ print "</pre>"}' pangene_matrix.tr.bed > pre/chr2Hpre.html
+
+perl -lane 'BEGIN{print "<pre><b>chr\tstart\tend\tpangene\toccupancy\tstrand\tMorexV3\tMorex\tHOR10350\tRGT_Planet\tHOR3081\tBarke\tHOR9043\tHOR13821\tHOR8148\tIgri\tHOR13942\tOUN333\tHOR21599\tAkashinriki\tHOR7552\tZDM02064\tHockett\tHOR3365\tZDM01467\tB1K-04-12\tGolden_Promise\tBarkeBaRT2v18</b>"} next if not(/chr3H/); if($F[4]<2){ print } else { $F[3] = "<a href=\"https://www.ncbi.nlm.nih.gov/projects/msaviewer/?url=https://floresta.eead.csic.es/barley_pangenes_msa/$F[3].cds.faa\">$F[3]</a>"; print join("\t",@F) } END{ print "</pre>"}' pangene_matrix.tr.bed > pre/chr3Hpre.html
+
+perl -lane 'BEGIN{print "<pre><b>chr\tstart\tend\tpangene\toccupancy\tstrand\tMorexV3\tMorex\tHOR10350\tRGT_Planet\tHOR3081\tBarke\tHOR9043\tHOR13821\tHOR8148\tIgri\tHOR13942\tOUN333\tHOR21599\tAkashinriki\tHOR7552\tZDM02064\tHockett\tHOR3365\tZDM01467\tB1K-04-12\tGolden_Promise\tBarkeBaRT2v18</b>"} next if not(/chr4H/); if($F[4]<2){ print } else { $F[3] = "<a href=\"https://www.ncbi.nlm.nih.gov/projects/msaviewer/?url=https://floresta.eead.csic.es/barley_pangenes_msa/$F[3].cds.faa\">$F[3]</a>"; print join("\t",@F) } END{ print "</pre>"}' pangene_matrix.tr.bed > pre/chr4Hpre.html
+
+perl -lane 'BEGIN{print "<pre><b>chr\tstart\tend\tpangene\toccupancy\tstrand\tMorexV3\tMorex\tHOR10350\tRGT_Planet\tHOR3081\tBarke\tHOR9043\tHOR13821\tHOR8148\tIgri\tHOR13942\tOUN333\tHOR21599\tAkashinriki\tHOR7552\tZDM02064\tHockett\tHOR3365\tZDM01467\tB1K-04-12\tGolden_Promise\tBarkeBaRT2v18</b>"} next if not(/chr5H/); if($F[4]<2){ print } else { $F[3] = "<a href=\"https://www.ncbi.nlm.nih.gov/projects/msaviewer/?url=https://floresta.eead.csic.es/barley_pangenes_msa/$F[3].cds.faa\">$F[3]</a>"; print join("\t",@F) } END{ print "</pre>"}' pangene_matrix.tr.bed > pre/chr5Hpre.html
+
+perl -lane 'BEGIN{print "<pre><b>chr\tstart\tend\tpangene\toccupancy\tstrand\tMorexV3\tMorex\tHOR10350\tRGT_Planet\tHOR3081\tBarke\tHOR9043\tHOR13821\tHOR8148\tIgri\tHOR13942\tOUN333\tHOR21599\tAkashinriki\tHOR7552\tZDM02064\tHockett\tHOR3365\tZDM01467\tB1K-04-12\tGolden_Promise\tBarkeBaRT2v18</b>"} next if not(/chr6H/); if($F[4]<2){ print } else { $F[3] = "<a href=\"https://www.ncbi.nlm.nih.gov/projects/msaviewer/?url=https://floresta.eead.csic.es/barley_pangenes_msa/$F[3].cds.faa\">$F[3]</a>"; print join("\t",@F) } END{ print "</pre>"}' pangene_matrix.tr.bed > pre/chr6Hpre.html
+
+perl -lane 'BEGIN{print "<pre><b>chr\tstart\tend\tpangene\toccupancy\tstrand\tMorexV3\tMorex\tHOR10350\tRGT_Planet\tHOR3081\tBarke\tHOR9043\tHOR13821\tHOR8148\tIgri\tHOR13942\tOUN333\tHOR21599\tAkashinriki\tHOR7552\tZDM02064\tHockett\tHOR3365\tZDM01467\tB1K-04-12\tGolden_Promise\tBarkeBaRT2v18</b>"} next if not(/chr7H/); if($F[4]<2){ print } else { $F[3] = "<a href=\"https://www.ncbi.nlm.nih.gov/projects/msaviewer/?url=https://floresta.eead.csic.es/barley_pangenes_msa/$F[3].cds.faa\">$F[3]</a>"; print join("\t",@F) } END{ print "</pre>"}' pangene_matrix.tr.bed > pre/chr7Hpre.html
+
+perl -lane 'BEGIN{print "<pre><b>chr\tstart\tend\tpangene\toccupancy\tstrand\tMorexV3\tMorex\tHOR10350\tRGT_Planet\tHOR3081\tBarke\tHOR9043\tHOR13821\tHOR8148\tIgri\tHOR13942\tOUN333\tHOR21599\tAkashinriki\tHOR7552\tZDM02064\tHockett\tHOR3365\tZDM01467\tB1K-04-12\tGolden_Promise\tBarkeBaRT2v18</b>"} next if not(/unplaced/); if($F[4]<2){ print } else { $F[3] = "<a href=\"https://www.ncbi.nlm.nih.gov/projects/msaviewer/?url=https://floresta.eead.csic.es/barley_pangenes_msa/$F[3].cds.faa\">$F[3]</a>"; print join("\t",@F) } END{ print "</pre>"}' pangene_matrix.tr.bed > pre/chrUnpre.html
+
+## MSAs
+
+# clusters with 2+ taxa
+#perl -lne 'if(/^cluster \S+ size=\d+ taxa=(\d+) \S+ cdnafile: (\S+) \S+ \S+ pepfile: (\S+)/){ print "$3" if($1 >= 2)}' MorexV3.cluster_list > list.2.pep.txt
+
+# align protein sequences in clusters
+#cd MorexV3
+#cat ../list.2.pep.txt | parallel --gnu -j 16 ~/soft/clustal-omega-1.2.4/src/clustalo -i {} -o ../msa_pep/{} ::: &> ../log.msa_pep
+
+
+
+## unused code
+
+
+# {r bedtable}
+# # parse pangene matrix file in BED format and add header
+# bed <- read.csv(file="pangene_matrix.tr.bed", sep="\t", comment.char=";",header=F)
+# names(bed) <- c("chr","start","end","pangene","occupancy","strand",
+#               "MorexV3","Morex","HOR10350","RGT_Planet","HOR3081",
+#               "Barke","HOR9043","HOR13821","HOR8148","Igri","HOR13942",
+#               "OUN333","HOR21599","Akashinriki","HOR7552","ZDM02064",
+#               "Hockett","HOR3365","ZDM01467","B1K-04-12","Golden_Promise",
+#               "BarkeBaRT2v18")
+#
+# # one chr at a time
+# bed <- bed[grep("chr1H", bed$chr), ]
+#
+# # build URL only for clusters with occup > 1
+# bed[bed$occupancy > 1,4] <- 
+#  paste0('[', bed[bed$occupancy > 1,4], '](',URL, bed[bed$occupancy > 1,4])
+# bed[bed$occupancy > 1,4] <- paste0(bed[bed$occupancy > 1,4], EXT,')')
+#
+# # display as table
+# kable(bed,format.args = list(big.mark=","), longtable=T)
+

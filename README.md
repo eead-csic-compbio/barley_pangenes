@@ -16,8 +16,7 @@ Also, MorexV3 HC genes in maps produced by [BARLEYMAP](https://barleymap.eead.cs
 The pangene matrices [pangene_matrix.tr.bed](./pangene_matrix.tr.bed) and 
 [pangene_matrix_genes.tr.tab](./pangene_matrix_genes.tr.tab) 
 in BED and TAB format describe clusters of gene models found to be collinear across barley assemblies and annotations in the order: 
-
-    MorexV3 Morex Barke HOR10350 HOR3081 HOR9043 OUN333 HOR7552 Igri HOR21599 HOR13942 Akashinriki HOR8148 RGT_Planet HOR13821 B1K-04-12 HOR3365 Hockett ZDM02064 ZDM01467 Golden_Promise BarkeBaRT2v18
+    MorexV3 Morex Hockett HOR3081 Igri HOR9043 HOR13942 HOR3365 HOR13821 RGT_Planet HOR10350 HOR21599 ZDM01467 ZDM02064 OUN333 Golden_Promise HOR7552 Barke Akashinriki B1K-04-12 HOR8148 BarkeBaRT2v18
 
 The **TAB** file contains one cluster per row, the 1st column being the cluster name.
 
@@ -28,17 +27,20 @@ within an interval defined by two MorexV3 genes. Those rows start with '#'.
 
 ## Methods
 
-Input genome assemblies (FASTA) and gene annotations (GFF) were obtained from IPK,
+Input genome assemblies (FASTA) and gene annotation files (GFF) were obtained from IPK,
 Ensembl Plants and JHI as explained in <https://doi.org/10.1186/s13059-023-03071-z>. 
-These files are available at <https://zenodo.org/records/7961646>.
+The actual files used in releases 04102024 & 10012024 are available at
+[Zenodo](https://zenodo.org/records/7961646) and correspond to pangenomeV1.
+Release 19052025 used pangenomeV2 annotated assemblies, obtained from the IPK and the ENA,
+see [SOURCE](/SOURCE.txt).
 
 Barley pangenes were produced by computing Whole Genome Alignments followed by gene model overlap and clustering with 
 [get_pangenes.pl](https://github.com/Ensembl/plant-scripts/tree/master/pangenes) 
-version 04102024 with the following arguments:
+version 14052025 with the following arguments:
 
-    plant-scripts/pangenes/get_pangenes.pl -d barley -s '^chr\d+H' -m cluster -r MorexV3 -H -t 0 > log.barley.H.t0.MorexV3.txt
+    plant-scripts/pangenes/get_pangenes.pl -d barley22_BPGv2 -s '^chr\d+H' -m cluster -r MorexV3 -H -t 0 > log.barley22_BPGv2.H.t0
 
-Note this approach uses nucleotide sequences, not protein sequences, being an alaternative to protein-based orthogroups in <https://panbarlex.ipk-gatersleben.de>.
+Note this approach uses nucleotide sequences, not protein sequences, being an alternative to protein-based orthogroups in <https://panbarlex.ipk-gatersleben.de>.
 
 Multiple alignments of resulting `.cds.faa` clusters were computed with clustal-omega v1.2.4.
 
@@ -47,7 +49,7 @@ Multiple alignments of resulting `.cds.faa` clusters were computed with clustal-
 To reduce avoid annotation bias and redundancy, BaRTv2 and MorexV3 gene models were removed to
 carry out haplotype analysis of trimmed protein sequences, which was performed as explained in 
 <https://github.com/Ensembl/plant-scripts/tree/master/pangenes#example-6-estimation-of-haplotype-diversity>
-and summarized on poster <http://hdl.handle.net/10261/368616>. This was done with v10012024 data.
+and summarized on poster <http://hdl.handle.net/10261/368616>. Note this was done with data from release 10012024.
 
 
 ## Citations
