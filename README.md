@@ -16,6 +16,7 @@ Also, MorexV3 HC genes in maps produced by [BARLEYMAP](https://barleymap.eead.cs
 The pangene matrices [pangene_matrix.tr.bed](./pangene_matrix.tr.bed) and 
 [pangene_matrix_genes.tr.tab](./pangene_matrix_genes.tr.tab) 
 in BED and TAB format describe clusters of gene models found to be collinear across barley assemblies and annotations in the order: 
+
     MorexV3 Morex Hockett HOR3081 Igri HOR9043 HOR13942 HOR3365 HOR13821 RGT_Planet HOR10350 HOR21599 ZDM01467 ZDM02064 OUN333 Golden_Promise HOR7552 Barke Akashinriki B1K-04-12 HOR8148 BarkeBaRT2v18
 
 The **TAB** file contains one cluster per row, the 1st column being the cluster name.
